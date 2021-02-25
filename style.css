@@ -1,0 +1,12 @@
+*{ /*Colocarlo siempre en los css*/
+  box-sizing: border-box; /*El navegador hace calculo automatico dependiendo del padding y border, el margin no, y de esta manera el width se ajusta al 100 %*/
+  padding: 0;
+  margin: 0;
+}
+main {
+  width: 100%;
+  height: 500px;
+  border: 10px solid gray;
+  padding: 20px 35px;
+
+}
